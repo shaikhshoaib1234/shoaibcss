@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+  * {
+      font-family: Kalnia;
+      margin: 0;
+      padding: 0;
+      outline: 0;
+  }
+  
+  .navbar {
+      position: sticky;
+      top: 0px;
+      width: 100%;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0.2);
+      background-color: #ffffff;
+  }
+  
+  .navbar-nav {
+      list-style: none;
+      vertical-align: middle;
+      padding: 20px 0px;
+  }
+  
+  .nav-item {
+      display: inline-block;
+      margin: 0 20px;
+      padding-bottom: 0px;
+  }
+  
+  .nav-link {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+  }
+  
+  .nav-link:hover {
+      color: rgb(243, 0, 0);
+  }
+  
+  article h1 {
+      font-size: 40px;
+  }
+  
+  .content {
+      background: rgba(226, 79, 46, 0.655);
+      padding: 10px 80px;
+  }
+  
+  .content>section {
+      margin: 100px 0px;
+  }
+  
+  .lang-img img {
+      width: 200px;
+  }
+  
+  .float-right {
+      float: right;
+      left: 50px;
+  }
+  
+  .float-left {
+      float: left;
+      margin: 50px;
+  }
+  
+  .bot-icon {
+      position: fixed;
+      right: 10px;
+      bottom: 20px;
+  }
+  
+  .bot-icon img {
+      width: 100px;
+  }
